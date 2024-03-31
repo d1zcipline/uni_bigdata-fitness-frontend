@@ -1,0 +1,33 @@
+body { 
+    @include fluid-text(16, 14);
+
+    font-family: var(--font-family-base);
+    line-height: 1.28;
+    color: var(--color-text);
+    background-color: var(--color-deep);
+}
+
+a,
+button,
+input,
+textarea,
+svg * {
+    transition-duration: var(--transition-duration);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1, h2 {
+    font-weight: 700
+}
+
+h1 {
+    @include fluid-text(60);
+}
+
+h2 {
+    @include fluid-text(36);
+}

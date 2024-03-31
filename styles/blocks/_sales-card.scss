@@ -1,0 +1,29 @@
+.sales-card {
+    width: 360px;
+    height: 474px;
+    border-radius: var(--border-radius);
+    background-color: var(--color-dark);
+
+    &__body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        row-gap: 35px;
+    }
+
+    &__title {
+        text-align: center;
+        font-size: 22px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    &__description {
+        margin: auto;
+        width: 300px;
+    }
+
+    &__link {
+        align-self: center;
+    }
+}

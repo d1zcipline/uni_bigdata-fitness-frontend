@@ -1,0 +1,14 @@
+.socials {
+    width: 265px; 
+    height: 230px;
+
+    &__list {
+        width: 196px;
+        height: 200px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        row-gap: 12px;
+    }
+
+}

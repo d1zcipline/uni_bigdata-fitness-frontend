@@ -1,0 +1,38 @@
+.faq {
+
+    &__body {
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content:  space-between;
+        row-gap: 60px;
+    }
+
+    &__inner {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        row-gap: 10px;
+        
+        &::after {
+            content: '';
+            position: absolute;
+            top: 125%;
+            width: 1120px;
+            height: 1px;
+            background-color: var(--color-text);
+            opacity: .35;
+        }
+    }
+
+    &__description {
+        background-color: var(--color-dark);
+        color: var(--color-text);
+        padding: 10px 30px;
+    }
+
+    &__list {
+        font-size: 14px;
+    }
+}

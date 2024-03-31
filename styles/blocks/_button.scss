@@ -1,0 +1,19 @@
+.button {
+    background-color: var(--color-accent);
+    color: var(--color-text);
+    padding: 18px 50px;
+    border-radius: var(--border-radius);
+    font-size: 20px;
+    text-transform: uppercase;
+
+    &--lower {
+        position: absolute;
+        bottom: 130px;
+        background-color: var(--color-accent);
+        color: var(--color-text);
+        padding: 15px 30px;
+        border-radius: var(--border-radius);
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+}

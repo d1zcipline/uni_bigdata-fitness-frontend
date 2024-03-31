@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/css/styles.css">
+    <title>Клубы Bigdata Fitness</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__inner container">
+            <a href="index.html" class="header__logo logo">
+                <img src="images/logo.svg" alt="BigData Fitness" class="logo__image" width="75" height="40" loading="lazy">
+            </a>
+            <nav class="header__menu">
+                <ul class="header__menu-list">
+                    <li class="header__menu-item">
+                        <a href="workouts.html" class="header__menu-link">Тренировки</a>
+                    </li> 
+                    <li class="header__menu-item">
+                        <a href="clubs.html" class="header__menu-link">Клубы</a>
+                    </li> 
+                    <li class="header__menu-item">
+                        <a href="subscriptions.html" class="header__menu-link">Абонементы</a>
+                    </li> 
+                    <li class="header__menu-item">
+                        <a href="sales.html" class="header__menu-link">Акции</a>
+                    </li>
+                </ul>
+            </nav>
+            <a href="profile.html" class="header__button button--transparent">
+                Личный кабинет
+            </a>
+        </div>
+
+        <div class="content">
+            <div class="hero">
+                <div class="hero__main">
+                    <div class="hero__body">
+                        <h1 class="hero__title">BigData Fitness</h1>
+                        <div class="hero__description">
+                            <p>
+                                Big Data Fitness — сеть из 24 технологичных фитнес-клубов с оплатой за месяц. Это не просто клуб, а сообщество единомышленников, для которых физическая активность —  норма жизни.
+                            </p>
+                        </div>
+                        <a class="hero__button button">
+                            Купить абонемент
+                        </a>
+                    </div>
+                </div>
+                <div class="hero__controller">
+                    <div class="hero__controller-slider">
+                        <div class="hero__controller-slider__left">
+                            <img src="images/left-slider-button.svg" alt="" width="32" height="32">
+                        </div>
+                        <div class="hero__controller-slider__right">
+                            <img src="images/right-slider-button.svg" alt="" width="32" height="32">
+                        </div>
+                    </div>
+                    <ul class="hero__controller-list">
+                        <li class="hero__controller-item controller-item-1">01</li>
+                        <li class="hero__controller-item controller-item-2">02</li>
+                        <li class="hero__controller-item controller-item-3">03</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="content">
+        <section class="section container">
+            <header class="section__header">
+                <h2 class="section__title">Программы тренировок</h2>
+            </header>
+            <div class="section__body">
+                <div class="workouts">
+                    <ul class="workouts__list flex">
+                        <li class="workouts__item">
+                            <article class="workouts-card workouts-card--virtual-bg">
+                                <div class="workouts-card__body">
+                                    <h3 class="workouts-card__title">Virtual</h3>
+                                    <a href="#" class="workouts-card__link button">
+                                        Подробнее
+                                    </a>
+                                </div>
+                            </article>
+                        </li>
+                        <li class="workouts__item">
+                            <article class="workouts-card workouts-card--starhiit-bg">
+                                <div class="workouts-card__body">
+                                    <h3 class="workouts-card__title">Starhiit</h3>
+                                    <a href="#" class="workouts-card__link button">
+                                        Подробнее
+                                    </a>
+                                </div>
+                           </article>
+                        </li>
+                        <li class="workouts__item">
+                            <article class="workouts-card workouts-card--fighter-bg">
+                                <div class="workouts-card__body">
+                                    <h3 class="workouts-card__title">Fighter</h3>
+                                    <a href="#" class="workouts-card__link button">
+                                        Подробнее
+                                    </a>
+                                </div>
+                            </article>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section container">
+            <header class="section__header">
+                <h2 class="section__title">Карта клубов</h2>
+            </header>
+        </section>
+
+        <section class="section container">
+            <header class="section__header">
+                <h2 class="section__title">Абонементы</h2>
+            </header>
+            <div class="section__body">
+                <div class="subscription">
+                    <ul class="subscription__list flex">
+                        <li class="subscription__item">
+                            <article class="subscription-card">
+                                <div class="subscription-card__body">
+                                    <h3 class="subscription-card__title">
+                                        <span class="subscription-card__title--name-top">Тариф</span>
+                                        <br>
+                                        <span class="subscription-card__title-main">"Лайт"</span>
+                                    </h3>
+                                    <div class="subscription-card__price">
+                                        <span class="subscription-card__price--monthly-payment">Ежемесячный платеж</span>
+                                        <p>1690 <span class="subscription-card__price--small">руб</span></p>
+                                    </div>
+                                    <ul class="subscription-card__description">
+                                        <li class="subscription-card__description--row">Доступ в клуб не более 5 раз в месяц</li>
+                                        <li class="subscription-card__description--row">Тренажерный зал</li>
+                                        <li class="subscription-card__description--row">Групповые тренировки</li>
+                                        <li class="subscription-card__description--row">Скидка до 20% по программе лояльности</li>
+                                    </ul>
+                                    <a href="#" class="subscription-card__link button">Купить</a>
+                                </div>
+                            </article>
+                        </li>
+                        <li class="subscription__item">
+                            <article class="subscription-card">
+                                <div class="subscription-card__body">
+                                    <h3 class="subscription-card__title">
+                                        <span class="subscription-card__title--name-top">Тариф</span>
+                                        <br>
+                                        <span class="subscription-card__title-main">"Стандарт"</span>
+                                    </h3>
+                                    <div class="subscription-card__price">
+                                        <span class="subscription-card__price--monthly-payment">Ежемесячный платеж</span>
+                                        <p>2190 <span class="subscription-card__price--small">руб</span></p>
+                                    </div>
+                                    <ul class="subscription-card__description">
+                                        <li class="subscription-card__description--row">Безлимитный доступ в клуб</li>
+                                        <li class="subscription-card__description--row">Тренажерный зал</li>
+                                        <li class="subscription-card__description--row">Групповые тренировки</li>
+                                        <li class="subscription-card__description--row">Скидка до 20% по программе лояльности</li>
+                                    </ul>
+                                    <a href="#" class="subscription-card__link button">Купить</a>
+                                </div>
+                            </article>
+                        </li>
+                        <li class="subscription__item">
+                            <article class="subscription-card">
+                                <div class="subscription-card__body">
+                                    <h3 class="subscription-card__title">
+                                        <span class="subscription-card__title--name-top">Тариф</span>
+                                        <br>
+                                        <span class="subscription-card__title-main">"Максимум"</span>
+                                    </h3>
+                                    <div class="subscription-card__price">
+                                        <span class="subscription-card__price--monthly-payment">Ежемесячный платеж</span>
+                                        <p>2990 <span class="subscription-card__price--small">руб</span></p>
+                                    </div>
+                                    <ul class="subscription-card__description--large">
+                                        <li class="subscription-card__description--row">Безлимитный доступ во все клубы</li>
+                                        <li class="subscription-card__description--row">Тренажерный зал</li>
+                                        <li class="subscription-card__description--row">Групповые тренировки</li>
+                                        <li class="subscription-card__description--row">Персональная тренировка с тренером</li>
+                                        <li class="subscription-card__description--row">Скидка до 20% по программе лояльности</li>
+                                    </ul>
+                                    <a href="#" class="subscription-card__link--large button">Купить</a>
+                                </div>
+                            </article>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__inner container">
+            <div class="footer__left">
+                <a href="index.html" class="footer__logo logo">
+                    <img src="/images/logo.svg" alt="Big Data Fitness logo" width="75" height="40" loading="lazy">
+                </a>
+                <div class="footer__title">Коротко о нас</div>
+                <div class="footer__description">
+                    <p>Big Data Fitness - ваш путь к здоровью и совершенству.  Мы предлагаем инновационные тренировки, персональные программы и  уникальный подход к достижению ваших фитнес-целей. Присоединяйтесь к нам  сегодня и станьте лучшей версией себя!</p>
+                </div>
+            </div>
+            <nav class="footer__menu">
+                <div class="footer__title">Меню</div>
+                <ul class="footer__menu-list">
+                    <li class="footer__menu-item">
+                        <a href="#" class="footer__menu-link">Главная</a>
+                    </li>
+                    <li class="footer__menu-item">
+                        <a href="#" class="footer__menu-link">Тренировки</a>
+                    </li>
+                    <li class="footer__menu-item">
+                        <a href="#" class="footer__menu-link">Клубы</a>
+                    </li>
+                    <li class="footer__menu-item">
+                        <a href="#" class="footer__menu-link">Абонементы</a>
+                    </li>
+                    <li class="footer__menu-item">
+                        <a href="#" class="footer__menu-link">Акции</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="footer__menu">
+                <div class="footer__title">Членам клуба</div>
+                <ul class="footer__menu-list">
+                    <li class="footer__menu-item">
+                        <a href="#" class="footer__menu-link">Абонементы</a>
+                    </li>
+                    <li class="footer__menu-item">
+                        <a href="#" class="footer__menu-link">Программа лояльности</a>
+                    </li>
+                    <li class="footer__menu-item">
+                        <a href="#" class="footer__menu-link">FAQ</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__socials socials">
+                <div class="footer__title">Мы в соц.сетях</div>
+                <div class="footer__description">
+                    <p>Подпишитесь на нас в социальных сетях, чтобы не пропустить выход новых невероятных проектов, разработанных для наших клиентов по всему миру.</p>
+                </div>
+                <ul class="socials__list">
+                    <li class="socials__item">
+                        <a href="#" class="socials__link">
+                            <img src="/images/icons/telegram.svg" alt="telegram" width="40" height="40">
+                        </a>
+                    </li>
+                    <li class="socials__item">
+                        <a href="#" class="socials__link">
+                            <img src="/images/icons/vk.svg" alt="vk" width="40" height="40">
+                        </a>
+                    </li>
+                    <li class="socials__item">
+                        <a href="#" class="socials__link">
+                            <img src="/images/icons/tiktok.svg" alt="tiktok" width="40" height="40">
+                        </a>
+                    </li>
+                    <li class="socials__item">
+                        <a href="#" class="socials__link">
+                            <img src="/images/icons/youtube.svg" alt="youtube" width="40" height="40">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

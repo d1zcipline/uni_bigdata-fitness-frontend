@@ -1,0 +1,148 @@
+.hero {
+    margin-top: -70px;
+    display: flex;
+    flex-direction: column;
+    row-gap: var(--section-padding-y);
+    background-image: url(../../images/header-bg.svg);
+    background-repeat: no-repeat;
+    width: 1260px;
+    height: 841px;
+
+    &__main {
+        position: relative;
+        margin-top: 180px;
+        left: 8%;
+    }
+
+    &__body {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        width: 369px;
+        height: 446px;
+    }
+    
+    &__title {
+        line-height: 1.1;
+    }
+
+    &__description {
+        background-color: var(--color-deep);
+        padding: 15px 22px;
+        border-radius: 20px;
+        font-size: 18px;
+        line-height: 1.7;
+    }
+
+    &__button {
+        @include flex-center(true);
+
+        font-size: 20px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: var(--color-text);
+        background-color: var(--color-accent);
+        border: var(--border);
+        border-radius: var(--border-radius);
+    }
+
+    &__controller {
+        position: absolute;
+        bottom: 10%;
+        right: 17%;
+    
+        &-list {
+            display: flex;
+            flex-direction: row;
+            align-items: start;
+            justify-content: space-between;
+            column-gap: 160px;
+        }
+
+        &-item {
+            font-size: 28px;
+            font-weight: 700;
+        }
+
+        &-slider {
+
+            &__left {
+                opacity: .7;
+                position: absolute;
+                top: -320px;
+                left: -640px;
+
+                @include hover {
+                    opacity: 1;
+                }
+            }
+
+            &__right {
+                opacity: .7;
+                position: absolute;
+                top: -320px;
+                right: -190px;
+
+                @include hover {
+                    opacity: 1;
+                }
+            }
+        }
+
+        
+    }
+
+    .controller-item-1 {
+        opacity: 1;
+
+        &::after {
+            content: '';
+            position: absolute;
+            top: 110%;
+            left: 0%;
+            width: 170px;
+            height: 2px;
+            background-color: var(--color-text);
+        }
+
+        @include hover {
+            opacity: 1;
+        }
+    }
+
+    .controller-item-2 {
+        opacity: .5;
+
+        &::after {
+            content: '';
+            position: absolute;
+            top: 110%;
+            left: 46%;
+            width: 170px;
+            height: 2px;
+            background-color: var(--color-text);
+        }
+
+        @include hover {
+            opacity: 1;
+        }
+    }
+
+    .controller-item-3 {
+        opacity: .5;
+
+        &::after {
+            content: '';
+            position: absolute;
+            top: 110%;
+            left: 92%;
+            width: 170px;
+            height: 2px;
+            background-color: var(--color-text);
+        }
+
+        @include hover {
+            opacity: 1;
+        }
+    }
+}
