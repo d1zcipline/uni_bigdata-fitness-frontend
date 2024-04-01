@@ -1,0 +1,31 @@
+.payment {
+
+    &__body {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__description {
+        width: 372px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        row-gap: 5px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: row;
+        column-gap: 5px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+}

@@ -1,0 +1,66 @@
+.form {
+    padding: 40px 30px;
+    width: 360px;
+    height: 494px;
+    background-color: var(--color-dark);
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+
+    &__inner {
+        width: 300px;
+        height: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__label {
+        padding-top: 2px;
+        padding-left: 15px;
+        font-size: 14px;
+        opacity: .5;
+        z-index: 1;
+    }
+
+    &__input {
+        margin-top: -20px;
+        padding-top: 15px;
+        padding-left: 15px;
+        width: 300px;
+        height: 50px;
+        display: block;
+        color: var(--color-text);
+        background-color: var(--color-deep);
+        border: 0px solid;
+        border-radius: var(--border-radius);
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    &__select {
+        appearance: none;
+        padding: 0 15px;
+        width: 300px;
+        height: 50px;
+        display: block;
+        color: var(--color-text);
+        background-color: var(--color-deep);
+        border: 0px solid;
+        border-radius: var(--border-radius);
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    &__dropdown-icon {
+        position: absolute;
+        top: 65%;
+        right: 14%;
+        z-index: 99;
+    }
+
+    &__submit {
+        position: relative;
+        bottom: -15%;
+        border: 0px solid;
+    }
+}
