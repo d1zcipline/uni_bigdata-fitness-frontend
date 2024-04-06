@@ -16,4 +16,13 @@
         font-size: 16px;
         text-transform: uppercase;
     }
+
+    &--small {
+        background-color: var(--color-accent);
+        color: var(--color-text);
+        padding: 10px 15px;
+        border-radius: var(--border-radius);
+        font-size: 16px;
+        text-transform: uppercase;
+    }
 }

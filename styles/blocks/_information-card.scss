@@ -1,0 +1,22 @@
+.information-card {
+
+    &__body {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        row-gap: 20px;
+        align-items: center;
+    }
+
+    &__title {
+        font-size: 18px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    &__button {
+        padding: 6px 15px;
+        font-weight: 700;
+    }
+}

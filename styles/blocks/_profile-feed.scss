@@ -1,0 +1,15 @@
+.information {
+
+    &__list {
+        display: flex;
+        flex-direction: row;
+        column-gap: 20px;
+    }
+
+    &__item {
+        width: 200px;
+        height: 140px;
+        background-color: var(--color-dark);
+        border-radius: var(--border-radius);
+    }
+}

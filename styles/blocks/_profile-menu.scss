@@ -1,0 +1,36 @@
+.profile-menu {
+    box-shadow: 4px 0 rgba($color: #000000, $alpha: .1);
+
+    &__image {
+        display: inline-block;
+        background-color: var(--color-dark);       
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+    }
+    
+    &__info {
+        margin: 5px auto;
+        text-align: center;
+        font-size: 32px;
+        font-weight: 600;
+    }
+
+    &__list {
+        margin: 50% -20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    &__item {
+        padding: 15px;
+        text-align: center;
+        font-size: 24px;
+
+        &:hover {
+            background-color: var(--color-accent);
+        }
+    }
+
+}

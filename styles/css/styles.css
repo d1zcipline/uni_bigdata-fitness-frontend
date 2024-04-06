@@ -518,8 +518,12 @@ h2 {
 
 .header-main {
   margin: auto;
+  position: sticky;
+  top: 0;
+  z-index: 99;
   height: 70px;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+  background-color: var(--color-deep);
 }
 .header-main__inner {
   padding-top: 15px;
@@ -677,6 +681,14 @@ h2 {
   background-color: var(--color-accent);
   color: var(--color-text);
   padding: 15px 30px;
+  border-radius: var(--border-radius);
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.button--small {
+  background-color: var(--color-accent);
+  color: var(--color-text);
+  padding: 10px 15px;
   border-radius: var(--border-radius);
   font-size: 16px;
   text-transform: uppercase;
@@ -1058,4 +1070,136 @@ h2 {
 }
 .form-login__link a {
   text-decoration: underline;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+}
+.profile-menu {
+  width: 240px;
+  display: flex;
+  justify-content: center;
+}
+.profile-feed {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-menu {
+  box-shadow: 4px 0 rgba(0, 0, 0, 0.1);
+}
+.profile-menu__image {
+  display: inline-block;
+  background-color: var(--color-dark);
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.profile-menu__info {
+  margin: 5px auto;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+}
+.profile-menu__list {
+  margin: 50% -20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.profile-menu__item {
+  padding: 15px;
+  text-align: center;
+  font-size: 24px;
+}
+.profile-menu__item:hover {
+  background-color: var(--color-accent);
+}
+
+.information__list {
+  display: flex;
+  flex-direction: row;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+.information__item {
+  width: 200px;
+  height: 140px;
+  background-color: var(--color-dark);
+  border-radius: var(--border-radius);
+}
+
+.information-card__body {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  row-gap: 20px;
+  align-items: center;
+}
+.information-card__title {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.information-card__button {
+  padding: 6px 15px;
+  font-weight: 700;
+}
+
+.personal-info__body {
+  width: 640px;
+  height: 430px;
+}
+.personal-info-form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.personal-info-form__inner {
+  width: 640px;
+  display: flex;
+  flex-direction: row;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+}
+.personal-info-form__field_input {
+  display: flex;
+  flex-direction: column;
+  display: block;
+}
+.personal-info-form__label {
+  padding-left: 15px;
+  font-size: 14px;
+  z-index: 1;
+  opacity: 0.5;
+}
+.personal-info-form__input {
+  display: block;
+  margin-top: -25px;
+  padding-top: 15px;
+  padding-left: 15px;
+  width: 300px;
+  height: 70px;
+  color: var(--color-text);
+  background-color: var(--color-deep);
+  font-size: 20px;
+  font-weight: 600;
+  border: 2px solid;
+  border-color: rgba(238, 238, 238, 0.3);
+}
+.personal-info-form__input--long {
+  width: 630px;
+  height: 70px;
+  display: block;
+  margin-top: -25px;
+  padding: 15px 15px 0 15px;
+  color: var(--color-text);
+  background-color: var(--color-deep);
+  font-size: 20px;
+  font-weight: 600;
+  border: 2px solid;
+  border-color: rgba(238, 238, 238, 0.3);
 }/*# sourceMappingURL=styles.css.map */

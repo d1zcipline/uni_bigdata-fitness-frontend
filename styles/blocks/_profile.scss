@@ -1,0 +1,17 @@
+.profile {
+    display: flex;
+    flex-direction: row;
+
+
+    &-menu {
+        width: 240px;
+        display: flex;
+        justify-content: center;
+    }
+
+    &-feed {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+}
