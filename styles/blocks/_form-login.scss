@@ -1,0 +1,27 @@
+.form-login {
+    margin: 10% auto;
+    padding: 40px 30px;
+    width: 360px;
+    background-color: var(--color-dark);
+    border-radius: var(--border-radius);
+
+    &__header {
+        display: flex;
+        justify-content: center;
+    }
+    
+    &__body {
+        display: flex;
+        flex-direction: column;
+        row-gap: 35px;
+    }
+
+    &__submit {
+        position: relative;
+        border: 0px solid;
+    }
+
+    &__link a {
+        text-decoration: underline;
+    }
+}

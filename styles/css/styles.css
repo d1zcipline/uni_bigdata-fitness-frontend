@@ -1033,4 +1033,28 @@ h2 {
 }
 .sales-card__link {
   align-self: center;
+}
+
+.form-login {
+  margin: 10% auto;
+  padding: 40px 30px;
+  width: 360px;
+  background-color: var(--color-dark);
+  border-radius: var(--border-radius);
+}
+.form-login__header {
+  display: flex;
+  justify-content: center;
+}
+.form-login__body {
+  display: flex;
+  flex-direction: column;
+  row-gap: 35px;
+}
+.form-login__submit {
+  position: relative;
+  border: 0px solid;
+}
+.form-login__link a {
+  text-decoration: underline;
 }/*# sourceMappingURL=styles.css.map */
