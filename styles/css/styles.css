@@ -1045,6 +1045,7 @@ h2 {
 .form-login__header {
   display: flex;
   justify-content: center;
+  font-size: 48px;
 }
 .form-login__body {
   display: flex;
@@ -1052,8 +1053,8 @@ h2 {
   row-gap: 35px;
 }
 .form-login__submit {
-  position: relative;
   border: 0px solid;
+  padding: 18px 1px;
 }
 .form-login__link a {
   text-decoration: underline;

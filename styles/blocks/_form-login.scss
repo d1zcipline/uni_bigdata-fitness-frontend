@@ -8,6 +8,7 @@
     &__header {
         display: flex;
         justify-content: center;
+        font-size: 48px;
     }
     
     &__body {
@@ -17,8 +18,8 @@
     }
 
     &__submit {
-        position: relative;
         border: 0px solid;
+        padding: 18px 1px;
     }
 
     &__link a {
