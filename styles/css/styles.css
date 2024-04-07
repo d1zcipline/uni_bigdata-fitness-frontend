@@ -1245,4 +1245,39 @@ h2 {
 }
 .payments-history__body {
   margin-top: 20px;
+}
+
+.blog-card {
+  width: 640px;
+  height: 480px;
+}
+.blog-card__body {
+  background-color: var(--color-dark);
+  border-bottom: 4px solid var(--color-accent);
+}
+.blog-card__topic {
+  position: relative;
+  top: -270px;
+  left: 25px;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: var(--color-accent);
+}
+.blog-card__topic p {
+  padding: 15px 25px;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+.blog-card__header {
+  margin-top: -55px;
+  padding: 15px 25px;
+}
+.blog-card__title {
+  font-size: 24px;
+}
+.blog-card__description {
+  padding: 0 25px;
+  padding-bottom: 25px;
 }/*# sourceMappingURL=styles.css.map */

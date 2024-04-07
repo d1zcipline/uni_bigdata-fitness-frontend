@@ -1,0 +1,39 @@
+.blog-card {
+    width: 640px;
+    height: 480px;
+
+    &__body {
+        background-color: var(--color-dark);
+        border-bottom: 4px solid var(--color-accent);
+    }
+    
+    &__topic {
+        position: relative;
+        top: -270px;
+        left: 25px;
+        width: fit-content;
+        background-color: var(--color-accent);
+    
+        p {
+            padding: 15px 25px;
+            font-size: 18px;
+            font-weight: 700;
+            text-align: center;
+            text-transform: uppercase;
+        }
+    }
+
+    &__header {
+        margin-top: -55px;
+        padding: 15px 25px;
+    }
+
+    &__title {
+        font-size: 24px;
+    }
+
+    &__description {
+        padding: 0 25px;
+        padding-bottom: 25px;
+    }
+}
