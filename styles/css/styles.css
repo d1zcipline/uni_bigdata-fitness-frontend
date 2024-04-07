@@ -1190,6 +1190,10 @@ h2 {
   border: 2px solid;
   border-color: rgba(238, 238, 238, 0.3);
 }
+.personal-info-form__input:active, .personal-info-form__input:hover, .personal-info-form__input:focus {
+  outline: 0;
+  outline-offset: 0;
+}
 .personal-info-form__input--long {
   width: 630px;
   height: 70px;
@@ -1202,4 +1206,8 @@ h2 {
   font-weight: 600;
   border: 2px solid;
   border-color: rgba(238, 238, 238, 0.3);
+}
+.personal-info-form__input--long:active, .personal-info-form__input--long:hover, .personal-info-form__input--long:focus {
+  outline: 0;
+  outline-offset: 0;
 }/*# sourceMappingURL=styles.css.map */
