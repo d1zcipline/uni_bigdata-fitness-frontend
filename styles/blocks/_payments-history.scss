@@ -1,0 +1,29 @@
+.payments-history {
+
+    &__body {
+        padding: 10px 20px;
+        width: 760px;
+        border-radius: var(--border-radius);
+        background-color: var(--color-dark);
+    }
+
+    &__header {
+        height: 25px;
+        
+        &::after {
+            content: '';
+            margin-top: 6px;
+            position: absolute;
+            width: 720px;
+            height: 1px;
+            background-color: var(--color-text);
+            opacity: .3;
+        }
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: row;
+        column-gap: 110px;
+    }
+}
