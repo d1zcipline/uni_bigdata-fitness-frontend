@@ -24,13 +24,17 @@
     }
 
     &__item {
-        padding: 15px;
         text-align: center;
         font-size: 24px;
 
         &:hover {
             background-color: var(--color-accent);
         }
+    }
+
+    &__link {
+        display: block;
+        padding: 15px;
     }
 
 }

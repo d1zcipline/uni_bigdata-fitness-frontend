@@ -1082,7 +1082,7 @@ h2 {
   justify-content: center;
 }
 .profile-feed {
-  width: 80%;
+  margin: auto;
   display: flex;
   flex-direction: column;
 }
@@ -1110,12 +1110,15 @@ h2 {
   justify-content: center;
 }
 .profile-menu__item {
-  padding: 15px;
   text-align: center;
   font-size: 24px;
 }
 .profile-menu__item:hover {
   background-color: var(--color-accent);
+}
+.profile-menu__link {
+  display: block;
+  padding: 15px;
 }
 
 .information__list {
