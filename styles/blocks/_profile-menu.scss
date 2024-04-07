@@ -1,5 +1,8 @@
 .profile-menu {
     box-shadow: 4px 0 rgba($color: #000000, $alpha: .1);
+    width: 240px;
+    display: flex;
+    justify-content: center;
 
     &__image {
         margin: 10px 0;
