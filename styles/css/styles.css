@@ -1124,18 +1124,18 @@ h2 {
 .information__list {
   display: flex;
   flex-direction: row;
-  -moz-column-gap: 20px;
-       column-gap: 20px;
+  -moz-column-gap: 80px;
+       column-gap: 80px;
 }
 .information__item {
-  width: 200px;
-  height: 140px;
+  width: 280px;
+  height: 160px;
   background-color: var(--color-dark);
   border-radius: var(--border-radius);
 }
 
 .information-card__body {
-  padding: 10px;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -1150,6 +1150,10 @@ h2 {
 .information-card__button {
   padding: 6px 15px;
   font-weight: 700;
+}
+.information-card__balance {
+  position: relative;
+  bottom: -25px;
 }
 
 .personal-info__body {

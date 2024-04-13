@@ -1,7 +1,7 @@
 .information-card {
 
     &__body {
-        padding: 10px;
+        padding: 20px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -18,5 +18,10 @@
     &__button {
         padding: 6px 15px;
         font-weight: 700;
+    }
+
+    &__balance {
+        position: relative;
+        bottom: -25px;
     }
 }
