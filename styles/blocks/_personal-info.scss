@@ -14,7 +14,7 @@
             width: 640px;
             display: flex;
             flex-direction: row;
-            column-gap: 30px;
+            column-gap: 40px;
         }
 
         &__field_input {
@@ -51,7 +51,7 @@
             }
 
             &--long {
-                width: 630px;
+                width: 640px;
                 height: 70px;
                 display: block;
                 margin-top: -25px;

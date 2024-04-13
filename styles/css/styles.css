@@ -1169,8 +1169,8 @@ h2 {
   width: 640px;
   display: flex;
   flex-direction: row;
-  -moz-column-gap: 30px;
-       column-gap: 30px;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
 }
 .personal-info-form__field_input {
   display: flex;
@@ -1202,7 +1202,7 @@ h2 {
   outline-offset: 0;
 }
 .personal-info-form__input--long {
-  width: 630px;
+  width: 640px;
   height: 70px;
   display: block;
   margin-top: -25px;
