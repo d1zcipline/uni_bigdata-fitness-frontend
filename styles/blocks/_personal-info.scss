@@ -68,6 +68,16 @@
                     outline-offset: 0;
                 }
             }
+
+        }
+
+        &__button {
+            width: 630px;
+            height: 70px;
+            border: 0px solid;
+            border-radius: 0%;
+            font-size: 24px;
+            font-weight: 800;
         }
     }
 }
