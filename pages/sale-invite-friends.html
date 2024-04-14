@@ -5,33 +5,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="styles/css/styles.css">
-    <title>Акции</title>
+    <link rel="stylesheet" href="/styles/css/styles.css">
+    <title>Специальное предложение</title>
 </head>
 
 <body>
     <header class="header-main">
         <div class="header-main__inner container">
             <a href="index.html" class="header__logo logo">
-                <img src="images/logo.svg" alt="BigData Fitness" class="logo__image" width="75" height="40" loading="lazy">
+                <img src="/images/logo.svg" alt="BigData Fitness" class="logo__image" width="75" height="40" loading="lazy">
             </a>
             <nav class="header__menu">
                 <ul class="header__menu-list">
                     <li class="header__menu-item">
-                        <a href="workouts.html" class="header__menu-link">Тренировки</a>
+                        <a href="/workouts.html" class="header__menu-link">Тренировки</a>
                     </li> 
                     <li class="header__menu-item">
-                        <a href="clubs.html" class="header__menu-link">Клубы</a>
+                        <a href="/clubs.html" class="header__menu-link">Клубы</a>
                     </li> 
                     <li class="header__menu-item">
-                        <a href="subscriptions.html" class="header__menu-link">Абонементы</a>
+                        <a href="/subscriptions.html" class="header__menu-link">Абонементы</a>
                     </li> 
                     <li class="header__menu-item">
-                        <a href="sales.html" class="header__menu-link">Акции</a>
+                        <a href="/sales.html" class="header__menu-link">Акции</a>
                     </li>
                 </ul>
             </nav>
-            <a href="profile.html" class="header__button button--transparent">
+            <a href="/profile.html" class="header__button button--transparent">
                 Личный кабинет
             </a>
         </div>
@@ -39,9 +39,24 @@
 
     <main class="content">
         <section class="section container">
-            <header class="section__header">
-                <h2 class="section__title">Специальные предложения</h2>
-            </header>
+            <div class="section__header">
+                <h2 class="section__title">Специальное предложение</h2>
+            </div>
+            <div class="section__body">
+                <div class="sale">
+                    <div class="sale__body">
+                        <h3 class="sale__title">Фитнес с друзьями</h3>
+                        <div class="sale__description">Приводи друзей тренироваться и получи 1000 рублей на счет </div>
+                        <div class="sale__how-to-get">Для начисления 1000 рублей на баланс вам нужно пройти к стойке администрации одного из клуба для подтверждения</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section container">
+            <div class="section__header">
+              <h2 class="section__title">Другие акции</h2>
+            </div>
             <div class="section__body">
                 <div class="sales">
                     <div class="sales_body">
@@ -49,7 +64,7 @@
                             <li class="sales__item">
                                 <article class="sales-card">
                                     <div class="sales-card__body">
-                                        <img src="images/sales-card--share.png" alt="" class="sales-card__image" width="360" height="208" loading="lazy">
+                                        <img src="/images/sales-card--share.png" alt="" class="sales-card__image" width="360" height="208" loading="lazy">
                                         <h3 class="sales-card__title">Фитнес с друзьями</h3>
                                         <div class="sales-card__description">
                                             <p>
@@ -63,28 +78,28 @@
                             <li class="sales__item">
                                 <article class="sales-card">
                                     <div class="sales-card__body">
-                                        <img src="images/sales-card--birthday.png" alt="" class="sales-card__image" width="360" height="208" loading="lazy">
+                                        <img src="/images/sales-card--birthday.png" alt="" class="sales-card__image" width="360" height="208" loading="lazy">
                                         <h3 class="sales-card__title">Скидка ко дню рождению</h3>
                                         <div class="sales-card__description">
                                             <p>
                                                 Дарим скидку 50% ко Дню рождения в течение месяца!
                                             </p>
                                         </div>
-                                        <a href="" class="sales-card__link button">Подробнее</a>
+                                        <a href="sale-birthday.html" class="sales-card__link button">Подробнее</a>
                                     </div>
                                 </article>
                             </li>
                             <li class="sales__item">
                                 <article class="sales-card">
                                     <div class="sales-card__body">
-                                        <img src="images/sales-card--sale.png" alt="" class="sales-card__image" width="360" height="208" loading="lazy">
+                                        <img src="/images/sales-card--sale.png" alt="" class="sales-card__image" width="360" height="208" loading="lazy">
                                         <h3 class="sales-card__title">Скидки до 40%</h3>
                                         <div class="sales-card__description">
                                             <p>
                                                 Снижаем стоимость на тарифы с оплатой за месяц до 20 марта.
                                             </p>
                                         </div>
-                                        <a href="" class="sales-card__link button">Подробнее</a>
+                                        <a href="sale.html" class="sales-card__link button">Подробнее</a>
                                     </div>
                                 </article>
                             </li>
@@ -93,6 +108,7 @@
                 </div>
             </div>
         </section>
+        
     </main>
 
     <footer class="footer">
