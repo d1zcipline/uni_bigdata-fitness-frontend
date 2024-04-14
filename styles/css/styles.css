@@ -1315,4 +1315,11 @@ h2 {
 }
 .club-information__link {
   text-align: center;
+}
+
+.fitness-center-information__description {
+  margin-bottom: 20px;
+}
+.fitness-center-information__item {
+  margin: 20px 0;
 }/*# sourceMappingURL=styles.css.map */
