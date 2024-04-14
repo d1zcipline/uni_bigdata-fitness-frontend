@@ -5,103 +5,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="styles/css/styles.css">
-    <title>Тренировки</title>
+    <link rel="stylesheet" href="/styles/css/styles.css">
+    <title>{Название} тренировка</title>
 </head>
 
 <body>
     <header class="header-main">
         <div class="header-main__inner container">
-            <a href="index.html" class="header__logo logo">
-                <img src="images/logo.svg" alt="BigData Fitness" class="logo__image" width="75" height="40" loading="lazy">
+            <a href="/index.html" class="header__logo logo">
+                <img src="/images/logo.svg" alt="BigData Fitness" class="logo__image" width="75" height="40" loading="lazy">
             </a>
             <nav class="header__menu">
                 <ul class="header__menu-list">
                     <li class="header__menu-item">
-                        <a href="workouts.html" class="header__menu-link">Тренировки</a>
+                        <a href="/workouts.html" class="header__menu-link">Тренировки</a>
                     </li> 
                     <li class="header__menu-item">
-                        <a href="clubs.html" class="header__menu-link">Клубы</a>
+                        <a href="/clubs.html" class="header__menu-link">Клубы</a>
                     </li> 
                     <li class="header__menu-item">
-                        <a href="subscriptions.html" class="header__menu-link">Абонементы</a>
+                        <a href="/subscriptions.html" class="header__menu-link">Абонементы</a>
                     </li> 
                     <li class="header__menu-item">
-                        <a href="sales.html" class="header__menu-link">Акции</a>
+                        <a href="/sales.html" class="header__menu-link">Акции</a>
                     </li>
                 </ul>
             </nav>
-            <a href="profile.html" class="header__button button--transparent">
+            <a href="/profile.html" class="header__button button--transparent">
                 Личный кабинет
             </a>
         </div>
     </header>
     <main class="content">
         <section class="section container">
-            <header class="section__header">
-                <h2 class="section__title">Программы тренировок</h2>
-            </header>
+            <div class="section__header">
+                <h2 class="section__title">{Название} тренировка</h2>
+            </div>
             <div class="section__body">
-                <div class="workouts">
-                    <div class="workouts__body">
-                        <ul class="workouts__list flex">
-                            <li class="workouts__item">
-                                <article class="workouts-card workouts-card--virtual-bg">
-                                    <div class="workouts-card__body">
-                                        <h3 class="workouts-card__title">Virtual</h3>
-                                        <a href="/pages/workout.html" class="workouts-card__link button">
-                                            Подробнее
-                                        </a>
-                                    </div>
-                                </article>
-                            </li>
-                            <li class="workouts__item">
-                                <article class="workouts-card workouts-card--starhiit-bg">
-                                    <div class="workouts-card__body">
-                                        <h3 class="workouts-card__title">Starhiit</h3>
-                                        <a href="/pages/workout.html" class="workouts-card__link button">
-                                            Подробнее
-                                        </a>
-                                    </div>
-                            </article>
-                            </li>
-                            <li class="workouts__item">
-                                <article class="workouts-card workouts-card--fighter-bg">
-                                    <div class="workouts-card__body">
-                                        <h3 class="workouts-card__title">Fighter</h3>
-                                        <a href="/pages/workout.html" class="workouts-card__link button">
-                                            Подробнее
-                                        </a>
-                                    </div>
-                                </article>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="section">
-            <div class="about-hero--workouts">
-                <div class="about-hero__main">
-                    <div class="about-hero__body">
-                        <h2 class="about-hero__title">Групповые тренировки</h1>
-                        <div class="about-hero__description">
-                            <p>
-                                Групповые тренировки открывают большие возможности для развития всех физических качеств. Силовые, аэробные, танцевальные классы и йога подходят для любого уровня подготовки, а заданный формат упражнений позволяет контролировать прогресс, ставить новые цели и добиваться результатов.
-                            </p>
+                <div class="workout">
+                    <div class="workout__body">
+                        <div class="workout__description">                           
+                            {Описание тренировки}
                         </div>
-                        <a class="about-hero__button button">
-                            Расписание
-                        </a>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- TODO -->
-        <section class="section container">
-            <header class="section__header">
-                <h2 class="section__title">Расписание групповых занятий</h2>
-            </header>
         </section>
         <section class="section">
             <div class="about-hero--centers">
@@ -113,7 +61,7 @@
                                 Мы создаем современные, доступные площадки для тренировок по самым разным направлениям фитнеса. Фитнес-пространство наших клубов сочетает современную инфраструктуру, оборудование и фитнес-программы.
                             </p>
                         </div>
-                        <a class="about-hero__button button">
+                        <a href="/pages/club.html" class="about-hero__button button">
                             Подробнее
                         </a>
                     </div>
@@ -121,6 +69,7 @@
             </div>
         </section>
     </main>
+
     <footer class="footer">
         <div class="footer__inner container">
             <div class="footer__left">
