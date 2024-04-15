@@ -1022,6 +1022,10 @@ h2 {
   font-size: 14px;
 }
 
+.sale__title {
+  font-size: 24px;
+}
+
 .sales-card {
   width: 360px;
   height: 474px;
@@ -1046,13 +1050,6 @@ h2 {
 }
 .sales-card__link {
   align-self: center;
-}
-
-.sale__title {
-  font-size: 24px;
-}
-.sale__description {
-  margin: 20px 0;
 }
 
 .form-login {
@@ -1337,5 +1334,4 @@ h2 {
   z-index: 0;
   margin-top: -20px;
   margin-bottom: 20px;
-}
-/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */
