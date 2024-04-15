@@ -1,0 +1,24 @@
+.interactive-map-card {
+  position: absolute;
+  background-color: var(--color-dark);
+  z-index: 99; 
+  width: 360px;
+  height: 80vh;
+
+  &__body {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+  }
+
+  &__title {
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  &__link {
+    text-align: center;
+  }
+}

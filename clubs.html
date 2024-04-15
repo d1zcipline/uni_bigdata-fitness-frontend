@@ -41,7 +41,27 @@
             <header class="section__header">
                 <h2 class="section__title">Карта клубов</h2>
             </header>
+            <div class="interactive-map">
+                <div class="interactive-map__body">
+                    <div class="interactive-map-card">
+                        <div class="interactive-map-card__body">
+                            <h3 class="interactive-map-card__title">Выберите клуб</h3>
+                            <div class="interactive-map-card__description">
+                              <p>Big Data Fitness — сеть технологичных фитнес-клубов с оплатой за месяц.</p>
+                              <p>Наша миссия — сделать занятия спортом неотъемлемой частью жизни каждого.</p>
+                              <p>Мы создаем не просто клубы, а сообщество единомышленников, для которых физическая активность — норма жизни.</p>
+                            </div>
+                            <a href="subscriptions.html" class="interactive-map-card__link button">Купить абонемент</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
+        <div id="map" class="map">
+            <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU"></script>
+            <script src="/js/script.js"></script>
+        </div>
+
         <section class="section container">
             <div class="section__body">
                 <div class="workouts">
@@ -79,23 +99,26 @@
                 </div>
             </div>
         </section>
-        <section class="section">
-            <div class="about-hero--choose-clubs">
-                <div class="about-hero__main">
-                    <div class="about-hero__body">
-                        <h2 class="about-hero__title">Выбор клуба</h2>
-                        <div class="about-hero__description">
-                            <p>
-                                Выберите идеальный клуб для своего здоровья и фитнеса!  Откройте двери к новым возможностям и достижениям вместе с нами.
-                            </p>
-                        </div>
-                        <a class="about-hero__button button">
-                            Выбрать клуб
-                        </a>
-                    </div>
-                </div>
+        <section class="section container">
+            <div class="section__header">
+                <h2 class="section__title">Клубы Big Data Fitness</h2>
             </div>
         </section>
+        <div class="about-hero--choose-clubs">
+            <div class="about-hero__main">
+                <div class="about-hero__body">
+                    <h2 class="about-hero__title">Выбор клуба</h2>
+                    <div class="about-hero__description">
+                        <p>
+                            Выберите идеальный клуб для своего здоровья и фитнеса!  Откройте двери к новым возможностям и достижениям вместе с нами.
+                        </p>
+                    </div>
+                    <a class="about-hero__button button">
+                        Выбрать клуб
+                    </a>
+                </div>
+            </div>
+        </div>
     </main>
     <footer class="footer">
         <div class="footer__inner container">
