@@ -105,31 +105,29 @@
                     </div>
                     <div class="section__body">
                         <div class="personal-info">
-                            <div class="personal-info__body">
-                                <form action="personal-info.php" method="post" class="personal-info-form">
+                            < class="personal-info__body">
+                                <form action="#" method="post" class="personal-info-form">
                                     <div class="personal-info-form__inner">
                                         <div class="personal-info-form__field-input">
                                             <label for="name" class="personal-info-form__label">Имя</label>
-                                            <input type="text" class="personal-info-form__input">
+                                            <input type="text" name="first_name" class="personal-info-form__input">
                                         </div>
                                         <div class="personal-info-form__field-input">
                                             <label for="surname" class="personal-info-form__label">Фамилия</label>
-                                            <input type="text" class="personal-info-form__input">
+                                            <input type="text" name="last_name" class="personal-info-form__input">
                                         </div>
                                     </div>
                                     <div class="personal-info-form__field-input">
-                                        <label for="email" class="personal-info-form__label">Почта</label>
-                                        <input type="email" class="personal-info-form__input--long">
-                                    </div>
-                                    <div class="personal-info-form__inner">
-                                        <div class="personal-info-form__field-input">
-                                            <label for="birthday-date" class="personal-info-form__label">Дата рождения</label>
-                                            <input type="date" class="personal-info-form__input--long">
-                                        </div>
+                                        <label for="birthday-date" class="personal-info-form__label">Дата рождения</label>
+                                        <input type="date" name="birthday-date" class="personal-info-form__input--long">
                                     </div>
                                     <div class="personal-info-form__field-input">
-                                        <label for="password" class="personal-info-form__label">Пароль</label>
-                                        <input type="password" class="personal-info-form__input--long">
+                                        <label for="email" class="personal-info-form__label">Текущая почта</label>
+                                        <input type="email" name="email" class="personal-info-form__input--long">
+                                    </div>
+                                    <div class="personal-info-form__field-input">
+                                        <label for="password" class="personal-info-form__label">Текущий пароль</label>
+                                        <input type="password" name="password" class="personal-info-form__input--long">
                                     </div>
                                     <button type="submit" class="personal-info-form__button button">Сохранить</button>
                                 </form>
