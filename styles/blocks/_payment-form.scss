@@ -53,10 +53,10 @@
     }
 
     &__dropdown-icon {
-        position: absolute;
-        top: 65%;
-        right: 14%;
-        z-index: 99;
+        position: relative;
+        top: -25px;
+        left: 270px;
+        z-index: 8;
     }
 
     &__submit {
