@@ -4,14 +4,6 @@
     display: flex;
     justify-content: center;
 
-    &__image {
-        margin: 10px 0;
-        display: inline-block;
-        background-color: var(--color-dark);       
-        width: 200px;
-        height: 200px;
-        border-radius: 50%;
-    }
     
     &__info {
         margin: 5px auto;
@@ -21,7 +13,8 @@
     }
 
     &__list {
-        margin: 50% -20px;
+        width: 240px;
+        margin: 20vh 0;
         display: flex;
         flex-direction: column;
         justify-content: center;
