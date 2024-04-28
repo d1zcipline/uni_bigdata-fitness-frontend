@@ -706,7 +706,7 @@ h2 {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  row-gap: 40px;
+  row-gap: 35px;
 }
 .subscription-card__title {
   display: flex;
@@ -892,6 +892,9 @@ h2 {
   font-weight: 600;
 }
 .form__select {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   padding: 0 15px;
   width: 300px;
   height: 50px;
@@ -1333,6 +1336,7 @@ h2 {
 
 .map {
   margin-top: -30px;
+  height: 740px;
 }
 .map__body {
   width: 100px;
@@ -1347,7 +1351,7 @@ h2 {
   background-color: var(--color-dark);
   z-index: 99;
   width: 360px;
-  height: 80vh;
+  height: 740px;
 }
 .interactive-map-card__body {
   padding: 40px;
