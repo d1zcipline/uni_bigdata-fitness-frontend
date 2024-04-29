@@ -706,7 +706,7 @@ h2 {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  row-gap: 35px;
+  row-gap: 40px;
 }
 .subscription-card__title {
   display: flex;
