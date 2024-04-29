@@ -1327,6 +1327,7 @@ h2 {
 .map {
   margin-top: -30px;
   height: 740px;
+  width: 100%;
 }
 .map__body {
   width: 100px;
